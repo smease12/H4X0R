@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		044BC0152C8FBF9D0077A8CD /* H4X0RApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BC0142C8FBF9D0077A8CD /* H4X0RApp.swift */; };
-		044BC0172C8FBF9D0077A8CD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044BC0162C8FBF9D0077A8CD /* ContentView.swift */; };
 		044BC0192C8FBF9E0077A8CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044BC0182C8FBF9E0077A8CD /* Assets.xcassets */; };
 		044BC01C2C8FBF9E0077A8CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044BC01B2C8FBF9E0077A8CD /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,13 +15,13 @@
 /* Begin PBXFileReference section */
 		044BC0112C8FBF9D0077A8CD /* H4X0R.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H4X0R.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		044BC0142C8FBF9D0077A8CD /* H4X0RApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4X0RApp.swift; sourceTree = "<group>"; };
-		044BC0162C8FBF9D0077A8CD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		044BC0182C8FBF9E0077A8CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044BC01B2C8FBF9E0077A8CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		0468D30E2CA0EF0F00AC9C88 /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
+		04DF1E6B2CAA1C22001E67E1 /* Views */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Views; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +56,7 @@
 			children = (
 				0468D30E2CA0EF0F00AC9C88 /* Models */,
 				044BC0142C8FBF9D0077A8CD /* H4X0RApp.swift */,
-				044BC0162C8FBF9D0077A8CD /* ContentView.swift */,
+				04DF1E6B2CAA1C22001E67E1 /* Views */,
 				044BC0182C8FBF9E0077A8CD /* Assets.xcassets */,
 				044BC01A2C8FBF9E0077A8CD /* Preview Content */,
 			);
@@ -89,6 +88,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				0468D30E2CA0EF0F00AC9C88 /* Models */,
+				04DF1E6B2CAA1C22001E67E1 /* Views */,
 			);
 			name = H4X0R;
 			productName = H4X0R;
@@ -145,7 +145,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044BC0172C8FBF9D0077A8CD /* ContentView.swift in Sources */,
 				044BC0152C8FBF9D0077A8CD /* H4X0RApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
