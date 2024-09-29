@@ -6,7 +6,9 @@
 
 import Foundation
 
-class NetworkManager{
+class NetworkManager: ObservableObject{
+    
+    var posts = [Post]()
     
     func fetchData(){
         if let url = URL(string: "http://hn.algolia.com/api/v1/search?tags=front_page"){
